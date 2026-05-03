@@ -3,21 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1{
-            color: crimson;
-            border: 3px solid black;
-            border-radius: 10px;
-            margin: 10px 20px;
-            padding: 15px 25px;
-            text-align: center;
-            text-transform: uppercase;
-            
-        }
-    </style>
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Project-1</h1>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <div class="add-first">
+                    <p>Deliver to</p>
+                </div>
+                <div class="add-second">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Bangladesh</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select name="" id="nav-search-select">
+                   <option value="">All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="nav-search-input">
+                <div class="nav-search-icon">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-acount border">
+                <div >
+                    <p class="nav-acount-first">Hello, sign in</p>
+                </div>
+                <div >
+                    <p class="nav-acount-second">Account & List</p>
+                </div>
+            </div>
+            <div class="nav-order border">
+                <div >
+                    <p class="nav-order-first">Returns</p>
+                </div>
+                <div >
+                    <p class="nav-order-second">& Orders</p>
+                </div>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-manu">
+                <i class="fa-solid fa-bars-staggered"></i>
+                All
+            </div>
+            <div class="panel-options">
+                <p>Today's Deals</p>
+                <p>Gift Card</p>
+                <p>Sell</p>
+                <p>Registry</p>
+                <p>Prime Video</p>
+                <p>Customer Service</p>
+            </div>
+        </div>
+    </header>
+    <div class="hero-section">
+        <div class="product-section-items">
+            <div class="product-section box">
+                <div class="product-section-1">
+                    <h2>Get your game on</h2>
+                    <div class="image-1"></div>
+                    <p>See all deals</p>
+                </div>
+            </div>
+            <div class="product-section box">
+                <div class="product-section-1">
+                    <h2>Shop Fashion for less</h2>
+                    <div class="image-1"style="background-image: url(Photos/image-2.jpg);"></div>
+                    <p>See all deals</p>
+                </div>
+            </div>
+            <div class="product-section box">
+                <div class="product-section-1">
+                    <h2>Gifts Mom wants</h2>
+                    <div class="image-1" style="background-image: url(Photos/image-3.jpg);"></div>
+                    <p>See all deals</p>
+                </div>
+            </div>
+            <div class="product-section box">
+                <div class="product-section-1">
+                    <h2>Gear up to get fit</h2>
+                    <div class="image-1" style="background-image: url(Photos/image-4.jpg);"></div>
+                    <p>See all deals</p>
+                </div>
+            </div>
+            <div class="product-section box">
+                <div class="product-section-1">
+                    <h2>Level up your gaming</h2>
+                    <div class="image-1" style="background-image: url(Photos/image-5.jpg);"></div>
+                    <p>See all deals</p>
+                </div>
+            </div>
+            <div class="product-section box">
+                <div class="product-section-1">
+                    <h2>Have more fun with family</h2>
+                    <div class="image-1"style="background-image: url(Photos/image-6.jpg);"></div>
+                    <p>See all deals</p>
+                </div>
+            </div>
+            <div class="product-section box">
+                <div class="product-section-1">
+                    <h2>Most-loved watches</h2>
+                    <div class="image-1" style="background-image: url(Photos/image-7.jpg);"></div>
+                    <p>See all deals</p>
+                </div>
+            </div>
+            <div class="product-section box">
+                <div class="product-section-1">
+                    <h2>Gaming merchandise</h2>
+                    <div class="image-1" style="background-image: url(Photos/image-8.jpg);"></div>
+                    <p>See all deals</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
